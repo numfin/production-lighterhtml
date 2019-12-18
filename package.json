@@ -1,0 +1,27 @@
+{
+  "name": "lighthome",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "lighterhtml": "^2.0.8"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.5",
+    "@babel/plugin-proposal-optional-chaining": "^7.7.5",
+    "@rfgamaral/parcel-plugin-typings-for-css-modules": "^1.0.4",
+    "autoprefixer": "^9.7.3",
+    "parcel-bundler": "^1.12.4",
+    "postcss-modules": "^1.4.1",
+    "rimraf": "^3.0.0",
+    "typescript": "^3.7.3"
+  },
+  "scripts": {
+    "prebuild": "rimraf dist",
+    "dev": "parcel ./src/index.html --port 8080",
+    "build": "parcel build ./src/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

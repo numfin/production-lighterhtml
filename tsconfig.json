@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "CommonJS",
+    "baseUrl": ".",
+    "strict": true,
+    "paths": {
+      "~/*": ["./src/*"]
+    },
+    "esModuleInterop": true,
+    "keyofStringsOnly": true
+  },
+  "include": ["*/**.ts", "src/root.view.ts"]
+}
