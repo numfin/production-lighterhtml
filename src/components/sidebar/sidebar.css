@@ -1,3 +1,10 @@
-.sidebar {
+.link {
   font-size: 14px;
+  display: block;
+}
+
+.nav {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(3, max-content);
 }

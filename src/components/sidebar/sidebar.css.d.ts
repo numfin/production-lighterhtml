@@ -1,5 +1,6 @@
 declare const styles: {
-  readonly "sidebar": string;
+  readonly "link": string;
+  readonly "nav": string;
 };
 export = styles;
 

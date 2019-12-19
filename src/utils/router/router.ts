@@ -76,7 +76,7 @@ export class Router extends Component {
       return this.setView(component.render());
     }
     const { options } = this.routes[0];
-    history.pushState(null, '', this.getPath(options.url, ''));
+    history.replaceState(null, '', this.getPath(options.url, ''));
     this.setView(options.component.render());
   }
 
